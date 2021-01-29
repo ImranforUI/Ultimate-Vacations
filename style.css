@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.btn{
+    border-radius: 50px;
+}
+/* navbar */
+.navbar{
+    padding: 15px 0 !important;
+    font-size: 20px;
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: bold;
+}
+.top-nav-collapse{
+    background-color: black;
+    padding: 0.75rem !important;
+}
+/* landing div */
+.landing-div{
+    background: white url(images/dest-bali.jpg) no-repeat scroll center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+.landing-wrapper{
+    background: rgba(0,0,0,0.5);
+    height: 100%;
+}
+/* Tours Section */
+.tour-img{
+    border-radius: 10px;
+    box-shadow: 0 15px 15px black;
+}
+/* Best Destination Places */
+.dest-img{
+    border-radius: 10px;
+}
+.dest-card{
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    position: relative;
+    cursor: pointer;
+}
+.dest-title{
+    position: absolute;
+    top : 20px;
+    left : 20px;
+}
+.dest-info{
+    position: absolute;
+    background-color: coral;
+    padding: 8px 12px;
+    border-radius: 0 50px 50px 0;
+    transition: all 0.5s;
+    bottom: 0;
+    left: 0;
+    color: white;
+    width: 50%;
+}
+.dest-card:hover .dest-info{
+    width: 60%;
+    background-color: orangered;
+}
+.dest-info h5{
+    margin-bottom: 0;
+}
+/* Destinations Section */
+.location-card {
+    box-shadow: 0 10px 10px 0 black;
+    border-radius: 10px;
+}
+.location-img{
+    position: relative;
+}
+.location-price{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background: rgba(0,255,0,0.5);
+    color: white;
+    border-radius: 10px;
+}
+/* Main Footer  */
+.main-footer{
+    background: white url(images/bg-footer.jpg) no-repeat scroll center;
+    background-size: cover;
+}
+.footer-wrapper{
+    background: rgba(0,0,0,0.7);
+    height: 100%;
+    color: white;
+}
